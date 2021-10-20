@@ -1,0 +1,8 @@
+{ 
+  "SERVER_URL": "http://unimustbd.com",
+  "HEDAER_URL": {
+      "Key": "QGluZiNpbmZvdGVjaCM=",
+      "Access-Control-Allow-Origin" : "*",
+      "Access-Control-Allow-Methods" : "GET,PUT,POST,DELETE,PATCH,OPTIONS"
+  }
+}

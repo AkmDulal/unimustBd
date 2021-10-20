@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": "../../.."
+		},
+		{
+			"path": "../../../../../redux/two"
+		},
+		{
+			"path": "../../../../../redux/amazone"
+		},
+		{
+			"path": "../../../../../redux/shop"
+		},
+		{
+			"path": "../../../../unimustbd copy"
+		}
+	],
+	"settings": {}
+}

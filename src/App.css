@@ -1,0 +1,151 @@
+@import "./style/pages.css" ;
+@import "./style/animate.css";
+@import "./style/animation.css";
+@import "./style/rasponsive.css";
+@import 'bootstrap/dist/css/bootstrap.min.css';
+@import 'antd/dist/antd.css';
+
+
+/* @import 'react-big-calendar/lib/css/react-big-calendar.css'; */
+
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;700&family=Montserrat:wght@200;300;500&display=swap');
+
+
+
+
+
+
+
+
+/* @import '../node_modules/@syncfusion/ej2/material.css'; */
+
+/*===========@Global Styles ============*/
+*{margin:0; padding:0; outline:none}
+img,fieldset{border:0}
+a { text-decoration:none !important; }
+img{
+    max-width: 100%;
+    float: left;
+    display: block
+}
+ul,li{padding:0px;margin:0px; list-style: none}
+
+h1, h2, h3, h4, h5, h6, p{ margin:0; padding:0; font-weight:normal;
+-webkit-transition: all 0.3s ease-in-out 0s; 
+	 -o-transition: all 0.3s ease-in-out 0s; 
+	 transition: all 0.3s ease-in-out 0s; 
+}
+.e-menu-wrapper ul .e-menu-item.e-fosused{
+  background-color: #fff !important;
+}
+body {
+  font-family: 'Kumbh Sans', 'Montserrat', sans-serif;
+  letter-spacing: .5px;
+  color: #222;
+}
+.scrolled {
+	position: fixed;
+	width: 100%;
+	z-index: 99;
+	transition: all .3s;
+	box-shadow: 1px 1px 10px 1px rgba(0,0,0,.16);
+	background: #fff;
+}
+
+
+ @-webkit-keyframes rotation {
+  from {
+   -webkit-transform:rotate(0deg);
+   transform:rotate(0deg)
+  }
+  to {
+   -webkit-transform:rotate(359deg);
+   transform:rotate(359deg)
+  }
+ }
+ @keyframes rotation {
+  from {
+   -webkit-transform:rotate(0deg);
+   transform:rotate(0deg)
+  }
+  to {
+   -webkit-transform:rotate(359deg);
+   transform:rotate(359deg)
+  }
+ }
+
+@keyframes rotateScale {
+	from {
+		transform: rotate(0deg) scale(1);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+@-webkit-keyframes rotateScale {
+	from {
+		transform: rotate(0deg) scale(1);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+@-moz-keyframes rotateScale {
+	from {
+		transform: rotate(0deg) scale(1);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+@-o-keyframes rotateScale {
+	from {
+		transform: rotate(0deg) scale(1);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+
+
+
+#Calendar {
+	height: 100%;
+	width: 80%;
+	margin: auto;
+	margin-top:50px;
+	margin-bottom: 50px;
+	/* background: yellow; */
+  }
+  
+  .rbc-month-view{
+	flex-basis: 500px !important;
+  }
+  
+  .rbc-toolbar-label {
+	font-weight: bold;
+	font-size: 22px;
+	color: #222;
+  }
+  
+  .rbc-date-cell {
+	color: #222;
+  }
+  
+  .rbc-today {
+	background-color: rgb(196, 226, 250) !important;
+  }
+  
+  @media (max-width: 480px) {
+	.rbc-toolbar {
+	  display: block !important;
+	}
+  }
+
+
+
+  .rbc-event.rbc-selected {
+	background-color: #2222 !important;
+	border: #2222;
+}

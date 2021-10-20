@@ -1,0 +1,24 @@
+
+
+/* leftright animation */
+.leftright {
+	animation: leftright 1s infinite alternate;
+}
+
+@keyframes leftright {
+	0% {
+		-webkit-transform: translateX(-10px);
+		-moz-transform: translateX(-10px);
+		-ms-transform: translateX(-10px);
+		-o-transform: translateX(-10px);
+		transform: translateX(-10px);
+	}
+
+	100% {
+		-webkit-transform: translateX(40px);
+		-moz-transform: translateX(40px);
+		-ms-transform: translateX(40px);
+		-o-transform: translateX(40px);
+		transform: translateX(40px);
+	}
+}
